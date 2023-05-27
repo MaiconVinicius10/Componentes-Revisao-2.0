@@ -36,6 +36,7 @@ namespace Componentes_Revisao_2._0
             this.label1 = new System.Windows.Forms.Label();
             this.txt_Carro = new System.Windows.Forms.TextBox();
             this.lb_Carros = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Limpar
@@ -103,11 +104,21 @@ namespace Componentes_Revisao_2._0
             this.lb_Carros.Size = new System.Drawing.Size(162, 180);
             this.lb_Carros.TabIndex = 7;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(102, 247);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // F_ListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(335, 342);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Limpar);
             this.Controls.Add(this.btn_Obter);
             this.Controls.Add(this.btn_Remover);
@@ -134,5 +145,6 @@ namespace Componentes_Revisao_2._0
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_Carro;
         private System.Windows.Forms.ListBox lb_Carros;
+        private System.Windows.Forms.Button button1;
     }
 }
