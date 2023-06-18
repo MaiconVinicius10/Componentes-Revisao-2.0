@@ -92,6 +92,7 @@ namespace Componentes_Revisao_2._0
             this.Name = "F_FilhoCheckBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_FilhoCheckBox";
+            this.Load += new System.EventHandler(this.F_FilhoCheckBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

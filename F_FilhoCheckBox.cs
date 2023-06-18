@@ -45,5 +45,10 @@ namespace Componentes_Revisao_2._0
         {
             fp.Cb_Onibus.Checked = Cb_Onibus.Checked;
         }
+
+        private void F_FilhoCheckBox_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
