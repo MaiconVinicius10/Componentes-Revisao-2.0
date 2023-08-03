@@ -68,7 +68,7 @@ namespace Componentes_Revisao_2._0
         }
         // botao  Adicionar
         private void btn_Adicionar_Click(object sender, EventArgs e)
-        {   //verificando se nao esta vazio
+        {   //verificando se nao esta vazio //
             if (tb_Veiculos.Text == "")
             {
                 MessageBox.Show("Campo de veiculos esta vazio.","Atenção");
