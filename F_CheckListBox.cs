@@ -16,7 +16,7 @@ namespace Componentes_Revisao_2._0
         {
             InitializeComponent();
         }
-        // botao Mostrar Selecionados
+        // botao Mostrar Selecionado
         private void btn_MostrarSelecionados_Click(object sender, EventArgs e)
         {   // crinado string recber dado
             string txt = "";
